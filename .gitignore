@@ -1,0 +1,52 @@
+# Virtual environment
+venv/
+.chat/
+.auto_chat/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# VSCode
+.vscode/
+.history/
+
+# Environment variables
+.env
+.env.*
+.envrc
+
+# Logs
+*.log
+logs/
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.so
+*.dylib
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Mypy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Database artifacts
+*.db
+*.sqlite3
+
+# Docker
+docker-data/
