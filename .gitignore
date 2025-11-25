@@ -1,0 +1,26 @@
+# Python Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# VSCode settings
+.vscode/
+
+# Environment variables
+.env
+
+# FastAPI or Uvicorn logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Antigravity artifacts
+.gemini/
