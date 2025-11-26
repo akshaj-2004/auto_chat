@@ -37,9 +37,8 @@ class RegistrationTools:
                 value = str(payload.get(field, '')).lower().strip()
                 if value in forbidden_list:
                     error_msg = (
-                        f"I cannot create a user with example/default data. "
-                        f"Please provide the actual {field.replace('_', ' ')} for the user you want to register. "
-                        f"What is the real {field.replace('_', ' ')}?"
+                        f"TELL THE USER: I cannot use example or placeholder data like '{payload.get(field)}'. "
+                        f"Please provide the REAL {field.replace('_', ' ')} for the person you want to register."
                     )
                     print(f"[ERROR] Rejected default value for {field}: {value}")
                     return json.dumps({"error": error_msg, "rejected_field": field})
